@@ -1,5 +1,5 @@
-import React from "react";
-import { Title, TitleLogo } from "./common/Title";
+import React from 'react';
+import { Title, TitleLogo } from './common/Title';
 
 const Banner = () => {
   return (
@@ -10,7 +10,7 @@ const Banner = () => {
             <div>
               <Title
                 className=""
-                title="We're looking forward to start a new project"
+                title="We are looking forward to start a new project"
               />
               <TitleLogo title="Let's take your business to the next level!" />
             </div>
