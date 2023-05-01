@@ -1,9 +1,12 @@
-import { home } from "@/assets/data/dummydata.js";
-import Banner from "@/components/Banner";
-import Expertise from "@/components/Expertise";
-import Testimonial from "@/components/Testimonial";
-import { Title, TitleLogo, TitleSm } from "@/components/common/Title";
-import React from "react";
+import { home } from '@/assets/data/dummydata.js';
+import Banner from '@/components/Banner';
+import Brand from '@/components/Brand';
+import Expertise from '@/components/Expertise';
+import Showcase from '@/components/Showcase';
+import Testimonial from '@/components/Testimonial';
+import BlogCard from '@/components/common/BlogCard';
+import { Title, TitleLogo, TitleSm } from '@/components/common/Title';
+import React from 'react';
 
 const Hero = () => {
   return (
@@ -49,6 +52,12 @@ const Hero = () => {
       <Expertise />
       <Banner />
       <Testimonial />
+      <Showcase />
+      <Brand />
+      <div className="text-center">
+        <Title title="Latest news & articles" />
+      </div>
+      <BlogCard />
     </>
   );
 };

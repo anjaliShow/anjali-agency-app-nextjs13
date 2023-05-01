@@ -7,13 +7,13 @@
   overflow: hidden !important;
   position: relative;
   &::before {
-    content: "";
+    content: '';
     position: absolute;
     top: 0;
     left: -40%;
     width: 180%;
     height: 200vh;
-    background-image: url("../assets/images/art-top-cropp.jpg");
+    background-image: url('../assets/images/art-top-cropp.jpg');
     background-size: cover;
     background-position: center;
     z-index: -1;
@@ -41,7 +41,7 @@
 .hero-sec {
   position: relative;
   &::before {
-    content: "";
+    content: '';
     position: absolute;
     top: -10%;
     left: 0%;
@@ -189,13 +189,13 @@ footer {
     }
   }
   &::after {
-    content: "";
+    content: '';
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100% !important;
     height: 60vh;
-    // background-image: url("../assets/images/blurfooter-min.png");
+    background-image: url('../assets/images/blurfooter-min.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -206,13 +206,13 @@ footer {
 //Agency Page
 .bg-top {
   &::after {
-    content: "";
+    content: '';
     position: absolute;
     top: 0;
     left: 0;
     width: 100% !important;
     height: 60vh;
-    // background-image: url("../assets/images/blurfooter-min.png");
+    background-image: url('../assets/images/blurfooter-min.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
