@@ -1,7 +1,16 @@
+import { Blog } from '@/sections/Blog';
+import Head from 'next/head';
 import React from 'react';
 
 const blogPage = () => {
-  return <div>blog</div>;
+  return (
+    <>
+      <Head>
+        <title>Team Agency</title>
+      </Head>
+      <Blog />
+    </>
+  );
 };
 
 export default blogPage;

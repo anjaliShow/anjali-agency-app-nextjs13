@@ -1,7 +1,7 @@
-import React from "react";
-import { Title, TitleSm } from "./common/Title";
-import { expertise } from "@/assets/data/dummydata.js";
-import Card from "../components/common/Card";
+import React from 'react';
+import { Title, TitleSm } from './common/Title';
+import { expertise } from '@/assets/data/dummydata.js';
+import Card from '../components/common/Card';
 
 const Expertise = () => {
   return (

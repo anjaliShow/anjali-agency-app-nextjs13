@@ -1,7 +1,7 @@
-import Link from "next/link";
-import React from "react";
-import { TitleSm } from "./Title";
-import { HiOutlineArrowRight } from "react-icons/hi";
+import Link from 'next/link';
+import React from 'react';
+import { TitleSm } from './Title';
+import { HiOutlineArrowRight } from 'react-icons/hi';
 
 const Card = ({ data, caption, show, path }) => {
   return (
@@ -11,7 +11,7 @@ const Card = ({ data, caption, show, path }) => {
           <img src={data.cover} alt={data.title} />
         </div>
         <div className="card-details">
-          <Link href={`${path}/${data.id}`} className="title-link">
+          <Link href={`${path}/${data.id} `} className="title-link">
             <TitleSm title={data.title} />
           </Link>
 
@@ -21,7 +21,7 @@ const Card = ({ data, caption, show, path }) => {
             </Link>
           )}
           <div className="flex">
-            <span> {data.catgeory} </span>{" "}
+            <span> {data.catgeory} </span>{' '}
             {data.date && <span> / {data.date}</span>}
           </div>
 
