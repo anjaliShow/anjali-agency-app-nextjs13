@@ -20,7 +20,8 @@
     overflow-x: hidden !important;
   }
   .hero-title {
-    font-size: $xll-3;
+    // font-size: $xll;
+    font-size: 60px;
     line-height: 115px;
     font-weight: 600;
     margin: $xl-6 0;
@@ -182,7 +183,9 @@ footer {
     }
   }
   .connect {
-    @include flex(center, space-between, none);
+    // @include flex(center, space-between, none);
+    display: flex;
+    gap: 20px;
     span {
       font-size: $sm;
       letter-spacing: 2px;
@@ -371,6 +374,15 @@ footer {
         }
       }
       flex-direction: column;
+    }
+  }
+  .hero {
+    .sub-heading {
+      span {
+        font-size: $xl-5;
+        line-height: 0;
+        color: $green;
+      }
     }
   }
 }

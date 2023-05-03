@@ -10,7 +10,8 @@ $gradient: linear-gradient(
 $gradient2: linear-gradient(
   250deg,
   rgba(255, 85, 219, 1) 24%,
-  rgba(52, 108, 255, 1) 100%
+  // rgba(52, 108, 255, 1) 100%
+  rgb(134 163 240) 100%
 );
 
 .green {
