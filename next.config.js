@@ -5,6 +5,14 @@ const nextConfig = {
   // experimental: {
   //   appDir: true,
   // },
+  images: {
+    remotePatterns: [
+      {
+        hostname: 'res.cloudinary.com',
+      },
+    ],
+    // domains: ['res.cloudinary.com'],
+  },
 };
 
 module.exports = nextConfig;

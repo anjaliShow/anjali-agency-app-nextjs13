@@ -1,4 +1,6 @@
+import BlogCard from '@/components/common/BlogCard';
 import { Title, TitleSm } from '@/components/common/Title';
+import Link from 'next/link';
 import React from 'react';
 
 export const Blog = () => {
@@ -11,7 +13,7 @@ export const Blog = () => {
             <br />
             <Title title="Our views on marketing, design & technology" />
           </div>
-          {/* <BlogCard /> */}
+          <BlogCard showLoadMore={true} />
         </div>
       </section>
     </>

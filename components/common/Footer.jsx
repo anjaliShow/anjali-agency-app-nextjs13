@@ -23,7 +23,9 @@ const Footer = () => {
               <br />
               <h3>+1 001 234 5678</h3>
               <br />
-              <button className="button-primary">Request for quote</button>
+              <Link href="/contact">
+                <button className="button-primary">Request for quote</button>
+              </Link>
             </div>
             <ul>
               <h3>COMPANY</h3>

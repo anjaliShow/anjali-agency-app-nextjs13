@@ -11,17 +11,22 @@ const Expertise = () => {
           <div className="heading-title">
             <Title title="Our expertise" />
             <p>
-              Vivamus a ligula ut velit placerat egestas at id leo. Nulla ac
-              volutpat nunc. Suspendisse ut magna porttitor, sollicitudin ligula
-              at, molestie dolor.
+              We are experts in web development, digital marketing, branding,
+              and more, helping businesses establish a strong online presence
+              and drive growth.
             </p>
           </div>
           <div className="hero-content grid-4">
-            {expertise.map((item, i) => {
+            {expertise.map((item, index) => {
               return (
                 <>
                   <div className="box">
-                    <Card data={item} key={i} caption="learn more" />
+                    <Card
+                      data={item}
+                      key={index}
+                      caption="learn more"
+                      path="service"
+                    />
                   </div>
                 </>
               );

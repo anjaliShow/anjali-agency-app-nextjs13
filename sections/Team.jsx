@@ -18,7 +18,12 @@ const Team = () => {
           </div>
           <div className="grid-4 py">
             {teamdata.map((item) => (
-              <Card data={item} key={item.id} caption={item.post} />
+              <Card
+                data={item}
+                key={item.id}
+                caption={item.post}
+                path={'team'}
+              />
             ))}
           </div>
         </div>

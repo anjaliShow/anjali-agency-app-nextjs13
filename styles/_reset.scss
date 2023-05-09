@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   background-color: $dark;
   color: $white;
 }
@@ -52,4 +52,14 @@ h5 {
 ul {
   text-decoration: none;
   list-style-type: none;
+}
+
+.blog_button {
+  background: rgba(78, 78, 78, 0.112);
+  border: 1px solid rgb(204, 204, 204);
+  padding: 15px 30px;
+  border-radius: 5px;
+}
+.blog_button:hover {
+  background: rgba(180, 180, 180, 0.247);
 }

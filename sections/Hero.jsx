@@ -6,9 +6,11 @@ import Showcase from '@/components/Showcase';
 import Testimonial from '@/components/Testimonial';
 import BlogCard from '@/components/common/BlogCard';
 import { Title, TitleLogo, TitleSm } from '@/components/common/Title';
+import Link from 'next/link';
 import React from 'react';
+import { BsArrowRight } from 'react-icons/bs';
 
-const Hero = () => {
+const Hero = ({ showLearnMore }) => {
   return (
     <>
       <section className="hero">
@@ -27,10 +29,11 @@ const Hero = () => {
           <div className="heading-title">
             <Title title="The last digital agency you'll ever need" />
             <p>
-              Suspendisse ut magna porttitor, sollicitudin ligula at, molestie
-              dolor. Vivamus a ligula ut velit placerat egestas at id leo. Nulla
-              ac volutpat nunc. Nulla facilisi. Pellentesque tempus tellusut
-              magna porttitor scelerisque.
+              Our company that offers a range of digital services, including web
+              design and development, digital marketing, social media
+              management, and more. They specialize in helping businesses
+              establish a strong online presence and achieve their goals through
+              digital channels.
             </p>
           </div>
           <div className="hero-content grid-4">
@@ -58,6 +61,25 @@ const Hero = () => {
         <Title title="Latest news & articles" />
       </div>
       <BlogCard />
+
+      <div
+        className=""
+        style={{
+          textAlign: 'right',
+          width: '100%',
+          marginBottom: '5%',
+          paddingRight: '3%',
+        }}
+      >
+        <Link href={'/blog'}>
+          <p style={{ color: '#845aff' }}>
+            Learn More{' '}
+            <span style={{ alignItems: 'center' }}>
+              <BsArrowRight />
+            </span>
+          </p>
+        </Link>
+      </div>
     </>
   );
 };
